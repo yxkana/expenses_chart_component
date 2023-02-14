@@ -108,12 +108,7 @@ hr {
     justify-content: space-between;
     padding: 10px 40px;
   }
-
-  #myChart {
-    height: 300px;
-    width: auto;
-  }
-
+  
   .chart_container {
     width: 400px;
     height: 580px;
@@ -129,10 +124,6 @@ hr {
     padding-top: 25px;
     display: flex;
     justify-content: space-between;
-  }
-
-  canvas {
-    height: 200px;
   }
 
   .canvas_conainer {
