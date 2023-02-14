@@ -1,0 +1,142 @@
+body {
+  background-color: hsl(27, 66%, 92%);
+  font-family: "DM Sans", sans-serif;
+  color: hsl(25, 47%, 15%);
+}
+
+h1 {
+  font-size: 40px;
+}
+h2 {
+  margin: 0;
+}
+h3 {
+  margin: 0;
+}
+h4 {
+  color: hsl(28, 10%, 53%);
+  margin: 0;
+}
+h5 {
+  margin: 0 0 8px 0;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+#myChart {
+  height: 10%;
+  position: relative;
+}
+
+hr {
+  margin-top: 30px;
+  height: 2px;
+  background-color: hsl(27, 66%, 92%);
+  border: none;
+}
+
+.attribution {
+  text-align: center;
+}
+
+.my_balance {
+  width: 580px;
+  height: 100px;
+  display: flex;
+  margin: 8% auto 1.5% auto;
+  background-color: hsl(10, 79%, 65%);
+  border-radius: 20px;
+  justify-content: space-between;
+  padding: 10px 40px;
+}
+
+.myBalance_content {
+  position: relative;
+  bottom: -20px;
+  color: white;
+  text-align: start;
+}
+
+.cash_balance {
+  font-size: 30px;
+}
+
+.logo {
+  position: relative;
+  bottom: -25px;
+}
+
+.chart_container {
+  width: 580px;
+  height: 580px;
+  margin: 0 auto 8% auto;
+  background-color: hsl(33, 100%, 98%);
+  border-radius: 20px;
+  box-shadow: 0px 1px 5px 1px hsl(30, 11%, 76%);
+  text-align: start;
+  padding: 10px 40px;
+}
+
+.expenses_container {
+  padding-top: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.enrease {
+  position: relative;
+  bottom: -25px;
+  text-align: end;
+}
+
+.month_total {
+  font-size: 45px;
+  font-weight: bold;
+  margin: 0;
+}
+
+@media only screen and (max-width: 700px) {
+  h1 {
+    font-size: 30px;
+  }
+  .my_balance {
+    width: 400px;
+    height: 120px;
+    display: flex;
+    margin: 8% auto 1.5% auto;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 20px;
+    justify-content: space-between;
+    padding: 10px 40px;
+  }
+
+  #myChart {
+    height: 300px;
+    width: auto;
+  }
+
+  .chart_container {
+    width: 400px;
+    height: 580px;
+    margin: 0 auto 8% auto;
+    background-color: hsl(33, 100%, 98%);
+    border-radius: 20px;
+    box-shadow: 0px 1px 5px 1px hsl(30, 11%, 76%);
+    text-align: start;
+    padding: 10px 40px;
+  }
+
+  .expenses_container {
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  canvas {
+    height: 200px;
+  }
+
+  .canvas_conainer {
+    height: 300px;
+  }
+}
